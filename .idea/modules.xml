@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BACK.iml" filepath="$PROJECT_DIR$/.idea/BACK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateaway/Gateaway.iml" filepath="$PROJECT_DIR$/Gateaway/Gateaway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MS/USER-MS/USER-MS.iml" filepath="$PROJECT_DIR$/MS/USER-MS/USER-MS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+    </modules>
+  </component>
+</project>
