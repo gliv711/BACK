@@ -14,13 +14,12 @@ public class UserController {
     @Autowired
     UserRepository userRepository ;
 
-
     @PostMapping("/user")
     public void user(@RequestBody User user){
         userRepository.save(user);
     }
 
-    @DeleteMapping("user/{id}")
+    @DeleteMapping("/user/{id}")
     public void user(@PathVariable(name="id") Long id ){
         userRepository.deleteById(id);
     }
