@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping(value = "/api")
 public class UserController {
     @Autowired
@@ -25,7 +26,7 @@ public class UserController {
     }
 
 
-    @GetMapping("/user")
+    @GetMapping("/user/all")
     public List<User> getAll(){
         return userRepository.findAll();
     }
