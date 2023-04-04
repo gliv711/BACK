@@ -21,10 +21,10 @@ public class UserMsApplication {
     }
     @Bean
     CommandLineRunner commandLineRunner (UserRepository UserRepository){
-        User u1 = new User(null, "mfarrej", "neder", "nedermfarrej@gmail.com", "123");
-        User u2 = new User(null, "Naghmouchi", "karim", "karimnaghmouchi@gmail.com", "123");
-        User u3 = new User(null, "jelidi", "dali", "dalijelidi@gmail.com", "123");
-        User u4 = new User(null, "Hedhli", "khalil", "hedhlikhalil@gmail.com", "123");
+        User u1 = new User(null, "mfarrej", "neder", "nedermfarrej@gmail.com", "123","Employée");
+        User u2 = new User(null, "Naghmouchi", "karim", "karimnaghmouchi@gmail.com", "123","Employeur");
+        User u3 = new User(null, "jelidi", "dali", "dalijelidi@gmail.com", "123","Employeur");
+        User u4 = new User(null, "Hedhli", "khalil", "hedhlikhalil@gmail.com", "123","Employeur");
 
         return args -> {
             UserRepository.save(u1);
