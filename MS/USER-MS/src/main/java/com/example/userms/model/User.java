@@ -17,7 +17,7 @@ public class User {
     private String prenom;
     private String email ;
     private String mdp ;
-    private String type;
+    private String Usertype;
 
 
 
