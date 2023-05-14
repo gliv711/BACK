@@ -4,3 +4,5 @@
 .idea/workspace.xml
 .idea/workspace.xml
 .idea/workspace.xml
+.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml
+.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_7_11_SNAPSHOT.xml
