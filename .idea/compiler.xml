@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
-        <module name="USER-MS" />
         <module name="Gateaway" />
       </profile>
     </annotationProcessing>
